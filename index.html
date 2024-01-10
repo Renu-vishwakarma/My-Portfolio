@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ----------------------NAVBAR------------------------- -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html" class="nav_logo">
+                <img src="./assets/logo.png" alt="Navbar logo">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <div class="nav_buttons">
+                <button class="nav_theme-btn"><i class="fa-regular fa-moon"></i></button>
+                <button class="nav_toggle-open"><i class="fa-solid fa-bars"></i></button>
+                <button class="nav_toggle-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------------------------HEADER SECTION------------------------------ -->
+
+    <header>
+        <div class="container header_container">
+            <article class="header_image" data-aos="fade-up" data-aos-delay="700">
+                <div><img src="./assets/header.jpg" alt="image"></div>
+            </article>
+            <article class="header_content" data-aos="fade-in">
+                <h4>Hi, I'm <span>Renu Vishwakarma</span>. And I'll</h4>
+                <h1>Get your business</br>online the right way </h1>
+                <p>Are you looking for a professional developer to put your business online? You've come
+                    to the right place! I've helped hundred of business owners bring their ideas to life.
+                    Hire me today! </p>
+                <div class="header_cta">
+                    <a href="#contact" class="btn primary"> Hire me</a>
+                    <a href="#projects" class="btn"> Portfolio</a>
+                </div>
+            </article>
+            <ul class="header_socials">
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ----------------------------ABOUT SECTION------------------------------ -->
+
+    <section class="about" id="about">
+        <div class="container about_container">
+            <div class="about_image">
+                <img src="./assets/about.jpg" alt="about image">
+            </div>
+            <div class="about_details" data-aos="fade-in" data-aos-delay="300">
+                <h1>About me</h1>
+                <div class="about_cards">
+                    <article class="about_card">
+                        <i class="fa-solid fa-award"></i>
+                        <h4>Experience</h4>
+                        <small>1+ years</small>
+                    </article>
+                    <article class="about_card">
+                        <i class="fa-solid fa-swatchbook"></i>
+                        <h4>Projects</h4>
+                        <small>4+ Completed</small>
+                    </article>
+                    <article class="about_card">
+                        <i class="fa-solid fa-users"></i>
+                        <h4>Clients</h4>
+                        <small>No clients</small>
+                    </article>
+                </div>
+                <p>
+                    Building projects my clients love have always been my passion. Being in the web
+                    development industry for over 1 year and serving so many happy clients worldwide
+                    I'm always motivated to do more!
+                </p>
+                <p>
+                    Hi, my name is Renu Vishwakarma from Kanpur, India. I'm a full stack web developer with a
+                    Bachelors degree in computer applications. My top priority is to get your business online
+                    the right way, giving you industry-standard design and all the functionality you need to
+                    operate smoothly online. Get in touch today with the dtails of your project let's get started!
+                    Check out my resume below!
+                </p>
+                <a href="./assets/resume.pdf" class="btn primary" download target="_blank"><i
+                        class="fa-solid fa-download"></i> Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------SERVICES SECTION------------------------------ -->
+
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <div class="container services_container">
+            <ul class="services_left">
+                <li class="service_item frontend active">
+                    <span><i class="fa-solid fa-desktop"></i></span>
+                    <div>
+                        <h3>Front-End</h3>
+                        <p>4 Projects</p>
+                    </div>
+
+                </li>
+                <li class="service_item backend">
+                    <span><i class="fa-solid fa-server"></i></span>
+                    <div>
+                        <h3>Back-End</h3>
+                        <p>4 Projects</p>
+                    </div>
+
+                </li>
+                <li class="service_item fullstack">
+                    <span><i class="fa-solid fa-layer-group"></i></span>
+                    <div>
+                        <h3>Full Stack</h3>
+                        <p>4 Projects</p>
+                    </div>
+                </li>
+            </ul>
+            <article class="services_right" data-aos="fade-in" data-aos-delay="300">
+
+            </article>
+        </div>
+    </section>
+
+    <!-- ----------------------------PROJECT SECTION------------------------------ -->
+
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <ul class="projects_categories">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".frontend">Frontend</li>
+            <li data-filter=".backend">Backend</li>
+            <li data-filter=".fullstack">Fullstack</li>
+        </ul>
+        <div class="container projects_container" data-aos="fade-in" >
+            <article class="project mix fullstack" data-order="1">
+                <div class="project_image">
+                    <img src="./assets/project1.jpg" alt="Project Image">
+                </div>
+                <h3>Project One Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                    atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                    tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+            </article>
+            <article class="project mix backend" data-order="2">
+                <div class="project_image">
+                    <img src="./assets/project2.jpg" alt="Project Image">
+                </div>
+                <h3>Project Two Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                    atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                    tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+            </article>
+            <article class="project mix fullstack"  data-order="3">
+                <div class="project_image">
+                    <img src="./assets/project3.jpg" alt="Project Image">
+                </div>
+                <h3>Project Three Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix frontend"  data-order="4">
+                <div class="project_image">
+                    <img src="./assets/project4.jpg" alt="Project Image">
+                </div>
+                <h3>Project Four Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix frontend"  data-order="5">
+                <div class="project_image">
+                    <img src="./assets/project5.jpg" alt="Project Image">
+                </div>
+                <h3>Project Five Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix fullstack"  data-order="6">
+                <div class="project_image">
+                    <img src="./assets/project6.jpg" alt="Project Image">
+                </div>
+                <h3>Project Six Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix frontend"  data-order="7">
+                <div class="project_image">
+                    <img src="./assets/project7.jpg" alt="Project Image">
+                </div>
+                <h3>Project Seven Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix backend"  data-order="8">
+                <div class="project_image">
+                    <img src="./assets/project8.jpg" alt="Project Image">
+                </div>
+                <h3>Project Eight Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+             <article class="project mix backend" data-order="9">
+                <div class="project_image">
+                    <img src="./assets/project9.jpg" alt="Project Image">
+                </div>
+                <h3>Project Nine Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, nihil architecto
+                     atque voluptatibus sint magni culpa corrupti, assumenda autem quia vero voluptatum
+                      tenetur sapiente fugiat. Assumenda provident tempora repellat
+                </p>
+                <div class="project_cta">
+                    <a href="#" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+                </div>
+             </article>
+        </div>
+    </section>
+
+        <!-- ----------------------------CLIENT SAY SECTION------------------------------ -->
+
+    <section class="swiper">
+        <h1>what my clients say</h1>
+        <p>This is what my clients say about me and my work.</p>
+        <div class="swiper-wrapper">
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum labore 
+                    distinctio necessitatibus, sequi maxime sint dolore. Perspiciatis iure placeat nam? Aliquid, quo!
+                </figcaption>
+                <div class="swiper_client">
+                     <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar">
+                     </div>
+                     <div class="swiper_client-details">
+                        <h5>John Doe</h5>
+                        <small>Actress</small>
+                     </div>
+                </div>
+            </figure>
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum labore 
+                    distinctio necessitatibus, sequi maxime sint dolore. Perspiciatis iure placeat nam? Aliquid, quo!
+                </figcaption>
+                <div class="swiper_client">
+                     <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar">
+                     </div>
+                     <div class="swiper_client-details">
+                        <h5>John Doe</h5>
+                        <small>Actress</small>
+                     </div>
+                </div>
+            </figure>
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum labore 
+                    distinctio necessitatibus, sequi maxime sint dolore. Perspiciatis iure placeat nam? Aliquid, quo!
+                </figcaption>
+                <div class="swiper_client">
+                     <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar">
+                     </div>
+                     <div class="swiper_client-details">
+                        <h5>John Doe</h5>
+                        <small>Actress</small>
+                     </div>
+                </div>
+            </figure>
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum labore 
+                    distinctio necessitatibus, sequi maxime sint dolore. Perspiciatis iure placeat nam? Aliquid, quo!
+                </figcaption>
+                <div class="swiper_client">
+                     <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar">
+                     </div>
+                     <div class="swiper_client-details">
+                        <h5>John Doe</h5>
+                        <small>Actress</small>
+                     </div>
+                </div>
+            </figure>
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum labore 
+                    distinctio necessitatibus, sequi maxime sint dolore. Perspiciatis iure placeat nam? Aliquid, quo!
+                </figcaption>
+                <div class="swiper_client">
+                     <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar">
+                     </div>
+                     <div class="swiper_client-details">
+                        <h5>John Doe</h5>
+                        <small>Actress</small>
+                     </div>
+                </div>
+            </figure>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>    
+    
+    <!-- ----------------------------CONTACT SECTION------------------------------ -->
+
+    <section class="contact" id="contact">
+        <div class="container contact_container">            
+            <ul class="contact_list">
+                <li data-aos="fade-in"><a href="mailto:renu.vishwakarma.dev@gmail.com" class="contact_list-item" target="_blank"> 
+                  <i class="fa-regular fa-envelope"></i></a></li>
+                  <li data-aos="fade-in" data-aos-delay="150"><a href="https://www.messenger.com" class="contact_list-item" target="_blank"> 
+                      <i class="fa-brands fa-facebook-messenger"></i></a></li>
+                  <li data-aos="fade-in" data-aos-delay="300"><a href="https://www.whatsapp.com" class="contact_list-item" target="_blank"> 
+                      <i class="fa-brands fa-whatsapp"></i></a></li>
+                  <li data-aos="fade-in" data-aos-delay="450"><a href="tel:+91-1234567890" class="contact_list-item" target="_blank"> 
+                      <i class="fa-solid fa-phone"></i></a></li>    
+            </ul>
+            <form action="https://formsubmit.co/fake060902@gmail.com" method="POST" class="contact_form" data-aos="fade-up" data-aos-delay="600">
+
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+                <textarea rows="7" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>      
+    </section>
+
+        <!-- ----------------------------FOOTER SECTION------------------------------ -->
+    <footer>
+        <div class="container footer_container">
+            <ul class="footer_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="footer_socials">
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <small>Made with ❤️ by <span>RENU VISHWAKARMA</span></small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 1500, offset: 80});
+    </script>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
